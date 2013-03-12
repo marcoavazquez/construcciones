@@ -1,0 +1,561 @@
+/*=============================Tipografías============================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:Condensed);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+/*=============================Cuerpo de la Página========================= */
+.borderradius body{
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+    background: #ffffff; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #ffffff 17%, #e1e1e1 84%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(17%,#ffffff), color-stop(84%,#e1e1e1)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #ffffff 17%,#e1e1e1 84%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #ffffff 17%,#e1e1e1 84%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #ffffff 17%,#e1e1e1 84%); /* IE10+ */
+	background: radial-gradient(ellipse at center, #ffffff 17%,#e1e1e1 84%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e1e1',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	text-align: center;
+	width:100%;
+}
+.borderradius #Cuerpo{
+	background-color: white;
+	width:1100px;
+	margin:0 auto 0 auto;
+	text-align: justify;
+}
+#Cuerpo{
+	background-color: white;
+	width:81%;
+	margin: 0 auto 0 auto ;
+	text-align: justify;
+}
+#columnaIzq{
+	width:280px;
+	text-align: justify;
+}
+#columnaIzq ul{
+	font-size: 15px;
+}
+#columnaIzq li{
+	list-style: none;
+	list-style-image: url(../img/Flecha.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	font-size: 20px;
+	font-family:'Oswald',sans-serif;
+	color:#888888;
+	text-transform: uppercase;
+}
+#bodyText{
+	width:720px;
+	box-shadow:3px 5px 2px rgba(128,128,128,0.2);
+	border-right:1px solid #c0c0c0;
+	}
+body{
+	background-color:#e7e7e7;
+	text-align: center;
+	width:100%;
+}
+
+/*=================== Encabezado=============================*/
+#cabeza{
+	background: url(../img/cinto_pequeno.png) repeat-x ;
+	position:absolute;
+	top:-8px;
+	left:0px;
+	width:100%;
+	height: 190px;
+	border-bottom:8px solid #c0c0c0;
+	border-bottom-style: groove;
+}
+.borderradius #subcabeza
+{
+	background-color:white;
+	width:1100px;
+	height:140px;
+	position:relative;
+	margin:50px auto 0 auto;
+	left:9px;
+}
+#subcabeza
+{
+	background-color:white;
+	width:86%;
+	height:140px;
+	position:relative;
+	margin:50px auto 0 auto;
+	left:9px;
+}
+/*======================Diseño de imagenes=================*/
+.logo /*internet explorer */
+{
+	width:1015px;
+	position:relative;
+	margin-top:32px;
+	left:-30px;
+
+}
+.borderradius .logo{
+	width:1015px;
+	position:relative;
+	top:0px;
+	left:-30px;
+}
+.borderradius .iso{
+	width:210px;
+	margin-left:80px;
+	margin-top: -50px;
+}
+
+.iso{
+	width:210px;
+	margin-left:280px;
+	margin-top: -70px;
+	position:absolute;
+}
+.telefono{
+	position:absolute;
+	top:-13px;
+	left:800px;
+	}
+/*================Diseño de los textos======================= */
+.texSub{
+	font-family:'Open Sans', helvetica;
+    font-style:condensed;
+    font-size: 12px;
+    text-align: justify;
+}
+.titulo{
+	font-family:'Oswald',sans-serif;
+	text-transform: uppercase;
+}
+.titulosup{
+	font-family:'Oswald',sans-serif;
+	text-transform: uppercase;
+	color:#535050;
+	font-size: 30px;
+}
+.subsup{
+	font-family:'Oswald',sans-serif;
+	text-transform: uppercase;
+	font-size:15px;
+}
+
+.entext{
+	border-radius: 5px;
+	font-family:'Open Sans', helvetica;
+	font-size: 11px;
+}
+.borderradius #parrafos{
+	top:-190px;
+	width:600px;
+	margin-left: 70px;
+	position:relative;
+}
+#parrafos /*internet explorer*/
+{
+	padding-top:100px;
+	width:600px;
+	margin-left: 70px;
+}
+.borderradius .cotiza{
+	color:white;
+	text-align: center;
+	position:relative;
+	top:10px;
+	left:390px;
+}
+.cotiza /*internet explorer*/
+{
+	color:white;
+	text-align: center;
+	position:relative;
+	top:10px;
+	left:90px;
+}
+.calidad{
+	font-family: 'Istok Web', helvetica;
+	font-size: 15px;
+	position:absolute;
+	margin-top:45px;
+	left:720px;
+	color:#535050;
+	width:320px;
+	text-align: right;
+}
+/* ======================== BOTONES ================================== */
+
+.btn{
+	padding:3px;
+	color:#FFFFFF;
+	background-color:#990000;
+	border:1px solid #000000;
+}
+
+
+/*===================Diseño de menus para IE=============================*/
+#menu-altern{
+	color: #FFFFFF;
+	width: 1100px;
+	height: 35px;
+	font-family: 'Oswald',sans-serif;
+	z-index: 999;
+	text-align: center;/*Para que los links estén centrados*/
+	font-size: 12px;
+	position: absolute;
+	margin-top: 188px;
+	margin-left: 190px;
+	left: -55px;
+	top: 7px;
+
+}
+#menu-altern ul li
+{
+	list-style:none;
+	display:inline;
+	float:left;
+	width:140px;
+	height:35px;
+	line-height:35px;
+	background:#666;
+	cursor:pointer;
+	border-right:1px solid #999;
+	z-index:999;
+}
+
+#menu-altern ul li ul {
+list-style:none;
+	display:none;
+}
+
+
+
+/*=====================Imagenes Trans================================*/
+.borderradius section {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	top:-60px;
+	z-index: 2;
+}
+section /*para internet explorer*/
+{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	top:140px;
+	z-index: 2;
+}
+.button {
+	background: #014464;
+	background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C));
+	border: 1px solid #368DBE;
+	border-top: 1px solid #c3d6df;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 1px 3px black;
+	-webkit-box-shadow: 0 1px 3px black;
+	box-shadow: 0 1px 3px black;
+	color: white;
+	display: block;
+	font-size: 12px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px black;
+	text-transform: uppercase;
+	width: auto;
+}
+.button2 {
+	background: #d9ae00;
+	background: -moz-linear-gradient(top, #b28b06, #9c7705 50%, #9c7705 51%, #5c4100);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #b28b06), color-stop(.5, #9c7705), color-stop(.5, #9c7705), to(#5c4100));
+	border: 1px solid #c7a60c;
+	border-top: 1px solid #e5d51f;
+}
+.button3 {
+	background: #ffd838;
+	background: -moz-linear-gradient(top, #edbf21, #c89b0f 50%, #9c7705 51%, #906706);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #edbf21), color-stop(.5, #c89b0f), color-stop(.5, #c89b0f), to(#906706));
+	border: 1px solid #c7a60c;
+	border-top: 1px solid #e5d51f;
+}
+.price_table {
+    float: right;
+	font-size: 12px;
+    margin: 10px auto 0;
+    padding: 20px 0;
+	position: relative;
+	width: 570px;
+}
+.price_table .price_column.highlighted {
+	background: #ffd838;
+    margin: -5px!important;
+	padding: 10px;
+    z-index: 2;
+}
+.price_table .price_column {
+	display: block;
+	margin: 5px;
+    float: left;
+    position: absolute;
+	width: 180px;
+    z-index: 1;
+}
+.price_table .price_column > div {
+	background: #eeeeee;
+}
+.price_table .price_column > div > div {
+	padding: 10px 15px;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #f6f6f6;
+}
+.price_table .price_column > div > p {
+	padding: 10px 15px;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #f6f6f6;
+}
+.price_table .price_column > div > ul {
+	padding: 10px 15px;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #f6f6f6;
+}
+.price_table .price_title {
+	background-color: #333333;
+    border-top: 0!important;
+    color: #ffffff;
+    font-size: 14px;
+}
+.price_table .highlighted .price_title {
+    font-size: 16px;
+}
+.price_table .price_price {
+    font-size: 36px;
+    line-height: 40px;
+}
+.price_table .highlighted  .price_price {
+    font-size: 40px;
+    line-height: 44px;
+}
+.price_table .price_explanation {
+	font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+}
+.price_table .cusButton {
+	background-color: #333333;
+	display: block;
+    text-align: center;
+}
+.price_table li {
+	padding: 5px 0;
+}
+.price_table div.pix_check {
+	background: url(images/demo/list-check-green.png) no-repeat 15px center;
+    padding-left: 38px!important;
+}
+.price_table div.pix_error {
+	background: url(images/demo/list-error.png) no-repeat 15px center;
+    padding-left: 38px!important;
+}
+/*=======================Pie de Página===================*/
+.borderradius #pie{
+	background:url(../img/CintoAbajo_pequeno.png);
+	position:absolute;
+	margin-top:-200px;
+	width:101%;
+	height:300px;
+	left:-10px;
+	color:white;
+
+}
+#pie /*inter explorer*/
+{
+	background: url(../img/CintoAbajo_pequeno.png);
+	position: absolute;
+	margin-top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 190px;
+	left: 14px;
+	color: white;
+
+}
+#pietabla{
+	background-color:#000;
+	width:1141px;
+	position:relative;
+	margin:0 9px 0 auto;
+	}
+.borderradius #pietabla{
+	background-color:#000;
+	width:1102px;
+	position:relative;
+	margin:0 auto auto 142px;
+	}
+#pie2{
+	font-family: 'Open Sans';
+	font-size:11px;
+	margin-left:70px;
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+.pie3{
+	font-family:'Open Sans';font-size:11px;margin-left:640px;margin-top: -39px; padding-bottom: 20px;width:300px;text-align: center;
+}
+.borderradius #piebajo{
+	background-color:#FFF;
+	color:#000;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+	margin: 0 142px; 0 auto;
+	width:1103px;
+	padding-bottom:10px;
+}
+#piebajo{
+	background-color:#FFF;color:#000;margin: 0 10px 0 auto;width:1142px;padding-bottom:10px;
+}
+/*=================================menus============*/
+.borderradius #menu-altern{
+		color:#FFFFFF; /*Color del texto*/
+		width:1100px; /*Ancho del menú El número de pestañas principales por el ancho que le demos a cada una(585px) MÁS LOS BORDES (que son 4 de 1px)*/
+		height:35px; /*Altura del menú*/
+		border-radius:0; /*Bordes redondeados al menú*/
+		font-family:'Oswald',sans-serif;/*La tipografía del texto*/
+		z-index:999;/*Para que sobresalga por encima de cualquier otro elemento de la página*/
+		text-align:center;/*Para que los links estén centrados*/
+		font-size:12px;/*Tamaño del texto*/
+		position:relative;
+		margin-top: 183px;
+		margin-left: 60px;
+		}
+.borderradius #menu-altern ul
+{
+	z-index:999;
+}
+
+.borderradius #menu-altern ul li
+{
+	list-style:none;
+	display:inline;
+	float:left;
+	width:140px;
+	height:35px;
+	line-height:35px;
+	background:#666;
+	cursor:pointer;
+	border-right:1px solid #999;
+	z-index:999;
+}
+
+.borderradius #menu-altern ul li:first-child
+{
+	border-bottom-left-radius:0px;
+	border-top-left-radius:0px;
+}
+
+.borderradius #menu-altern ul li:first-child a
+{
+	border-bottom-left-radius:0;
+	border-top-left-radius:0;
+}
+
+.borderradius #menu-altern ul li:last-child,#menu-altern ul li:last-child a
+{
+	border-bottom-right-radius:0;
+	border-top-right-radius:0;
+	border-right:0;
+}
+
+.borderradius #menu-altern .flechaabajo
+{
+	display:inline-block;
+	position:relative;
+	top:-1px;
+	left:10px;
+	border-left:6px solid transparent;
+	border-top:6px solid #fff;
+	border-right:6px solid transparent;
+	border-bottom:0;
+	z-index:999;
+}
+
+.borderradius #menu-altern ul li a
+{
+	display:block;
+	text-decoration:none;
+	color:#fff;
+	position:relative;
+	z-index:999;
+}
+
+.borderradius #menu-altern ul li ul
+{
+	box-shadow:none;
+	position:relative;
+	width:117px;
+	z-index:999;
+	border-radius:0;
+	display:block;
+}
+
+.borderradius #menu-altern ul li ul li
+{
+	display:block;
+	box-shadow: 1px 2px 1px rgba(0,0,0,.3);
+	float:none;
+	position:relative;
+	background:rgba(66,66,66,0.5);
+	z-index:999;
+	height:0px;
+	overflow: hidden;
+	-moz-transition:all 0.5s;/*Firefox*/
+	-webkit-transition:all 0.5s;/*Crome/Safari*/
+	-ms-transition:all 0.5s;/*IENo funciona todavía*/
+	-o-transition:all 0.5s;/*Opera*/
+	transition:all 0.5s;
+}
+
+.borderradius #menu-altern ul li ul li a
+{
+	color:#ffffff;
+	border:0;
+}
+
+.borderradius #menu-altern ul li ul li:first-child,#menu-altern ul li ul li:first-child a
+{
+	margin-left:0;
+	border-radius:0;
+}
+
+.borderradius #menu-altern ul li ul li:last-child
+{
+	border-right:1px solid #999;
+	border-radius:0;
+}
+.borderradius #menu-altern ul li ul li:last-child a
+{
+	border-radius:0;
+}
+.borderradius #menu-altern ul li.destacada,#menu-altern ul li.destacada ul li
+{
+	background:#C00;
+}
+
+.borderradius #menu-altern ul li.destacada:hover,#menu-altern ul li.destacada ul li:hover
+{
+	background:#FF1A1A;
+}
+
+.borderradius #menu-altern ul li:hover
+{
+	background:#888;
+}
+.borderradius #menu-altern ul li:hover ul li{
+	height:35px;
+}
